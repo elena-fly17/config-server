@@ -10,6 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/elena-fly17/config
+          search-paths: "/config-properties/{application}/{profile}"
 eureka:
   client:
     service-url:
